@@ -75,3 +75,13 @@ button:hover {
 	color: white;
 	background: steelblue;
 }
+
+@media (max-width: 480px) {
+	#colorDisplay {
+		font-size: 150%;
+	}
+
+	#stripe {
+		white-space: nowrap;
+	}
+}
