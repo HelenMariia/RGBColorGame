@@ -77,11 +77,25 @@ button:hover {
 }
 
 @media (max-width: 480px) {
+	h1 {
+		line-height: 1.2;
+		font-size: 28px;
+	}
+	
+    #stripe {
+		white-space: nowrap;
+		font-size: 13px;
+		height: 26px;
+	}
+
 	#colorDisplay {
 		font-size: 150%;
 	}
 
-	#stripe {
-		white-space: nowrap;
+	button {
+		padding: 3px;
 	}
+
+	
+	
 }
